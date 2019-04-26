@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+footer {
+    font-size: small;
+    text-align: left;
+    clear: both;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+	background-color: #2a2a2a;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 0.01em;
+    line-height: 4.0;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+@media (max-width: 650px){
+
+header {
+    margin-top: 30px;
+}
+
+}
+
+
+
+
+
+
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.parent .child {
+  display: flex;
+  align-items: stretch;
+  width: 600px;
+  height: 400px;
+  padding: 5px;
+  background-color: orange;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.child img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 650px) {
+  .parent .child {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+
+
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+#section-1{
+  padding:30px;
+  background:#5a66a0;
+  color:#fff;
+  text-align:left;
+}
+
+#section-2{
+  padding:30px;
+  background:#f4f4f4;
+  text-align:center;
+}
+
+
+
+
+
+
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+
+}
+
+
+form {
+padding: 30px;	
+	
+}
+
+.box1{
+	position:relative;
+	border: 5px solid orange; 
+	padding: 25px;
+	margin: 25px;
+	background-color: #2a2a2a; 
+	color: white;; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+	
+.box2{
+	position:relative;
+	border: 5px solid orange; 
+	padding: 25px;
+	margin: 25px;
+	background-color: #2a2a2a; 
+	color: white;; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+	
+.box3{
+	position:relative;
+	border: 5px solid orange; 
+	padding: 25px;
+	margin: 25px;
+	background-color: #2a2a2a; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
