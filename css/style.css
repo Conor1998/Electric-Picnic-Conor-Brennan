@@ -1,0 +1,389 @@
+
+*{
+font-family: 'Roboto', sans-serif;	
+}
+
+
+footer {
+    font-size: small;
+    text-align: left;
+    clear: both;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+	background-color: #5a66a0;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 0.01em;
+    line-height: 4.0;
+}
+
+header {
+	background-color: white;
+    text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+@media (max-width: 650px){
+}
+
+
+/* Gallery Photo Start */
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.parent .child {
+  display: flex;
+  align-items: stretch;
+  width: 600px;
+  height: 400px;
+  padding: 5px;
+  background-color: #d28439;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.child img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 650px) {
+  .parent .child {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+/* Gallery Photo End */
+
+
+
+/* Gallery Video Start */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#tbox{
+  padding-top:20px;
+padding-bottom: 20px;
+padding-right: 5px;
+	padding-left: 15px;
+  background:#2a2a2a;
+  color:#fff;
+  text-align:left;
+	font-size: 14px;
+}
+/* Gallery Video End */
+
+
+/* Homepage Slider Start */
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+
+}
+/* Homepage Slider End */
+
+
+
+/* Photo Gallery Start */
+.box1{
+	position:relative;
+	border: 5px solid #d28439; 
+	padding: 25px;
+	margin: 25px;
+	background-color: #2a2a2a; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+	
+.box2{
+	position:relative;
+	border: 5px solid #d28439; 
+	padding: 25px;
+	margin: 25px;
+	background-color: #2a2a2a; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+	
+.box3{
+	position:relative;
+	border: 5px solid #d28439; 
+	padding: 25px;
+	margin: 25px;
+	background-color: #2a2a2a; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+body{
+	background-color: #2a2a2a;
+}
+
+.lu {
+	padding: 30px;
+}
+/* Photo Gallery End */
+
+
+/* Form Start */
+h5{
+	color: white;
+}
+
+input[type=text], select, textarea{
+width: 100%;
+padding: 12px;
+border: 3px solid #2a2a2a;
+color: #2a2a2a;
+}
+
+label {
+padding: 10px 10px 10px 0;
+display: inline-block;
+}
+
+input[type=submit] {
+background-color: #2a2a2a;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+float: left;
+}
+
+.container {
+background-color: #d28439;
+padding: 25px;
+}
+
+@media screen and (max-width: 650px) {
+.col-25, .col-75, input[type=submit] {
+width: 100%;
+margin-top: 0;
+  }
+}
+
+form {
+padding-bottom: 40px;	
+	
+}
+/* Form End */
+
+
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+
+/* History Page Start */
+.his1{
+	position:relative; 
+	padding: 25px;
+	background-color: #2a2a2a; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+	
+.his2{
+	position:relative;
+	padding: 25px;
+	background-color: #2a2a2a; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+	
+.his3{
+	position:relative;
+	padding: 25px;
+	background-color:  #2a2a2a; 
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+h3{
+	color: #5a66a0;
+}
+/* History Page End */
+
+
+/* Info Page Start */
+.sectionLeft {
+    width: 35%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-left: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-bottom: 30px;
+	background-color: white;
+}
+
+.sectionRight {
+    width: 35%;
+    margin:30px;
+	background-color: white;
+}
+/* Info Page End */
+
+
+/* Thank You Page Start */
+.thankyou{
+	background-color: white;
+	position:relative; 
+	padding: 25px;
+	margin: 30px;
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+/* Thank You Page End */
+
+
+/* Tickets Page Start */
+* {
+box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 25%;
+padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.card {
+padding: 16px;
+text-align: center;
+background-color: white;
+border: solid 5px #d28439;
+}
+
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+display: block;
+margin-bottom: 20px;
+  }
+}
+
+a{
+color: #2a2a2a;
+}
+/* Tickets Page End */
+
+
+
+
+
+
+
